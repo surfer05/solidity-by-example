@@ -2,7 +2,7 @@
 pragma solidity ^0.8.17;
 
 import {Script} from "forge-std/Script.sol";
-import {firstApp} from "../src/firstApp.sol";
+import {firstApp} from "../src/1-Basics/firstApp.sol";
 
 contract DeployFirstApp is Script {
     function run() external returns(firstApp) {

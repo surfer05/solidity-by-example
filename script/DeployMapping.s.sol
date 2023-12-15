@@ -2,7 +2,7 @@
 pragma solidity ^0.8.17;
 
 import {Script} from "forge-std/Script.sol";
-import {Mapping, NestedMapping} from "../src/mapping.sol";
+import {Mapping, NestedMapping} from "../src/1-Basics/mapping.sol";
 
 contract DeployMapping is Script {
 

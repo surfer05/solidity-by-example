@@ -2,7 +2,7 @@
 pragma solidity ^0.8.17;
 
 import {Script} from "forge-std/Script.sol";
-import {ForAndWhile} from "../src/forAndWhile.sol";
+import {ForAndWhile} from "../src/1-Basics/forAndWhile.sol";
 
 contract DeployForAndWhile is Script {
 

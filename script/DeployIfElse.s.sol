@@ -2,7 +2,7 @@
 pragma solidity ^0.8.17;
 
 import {Script} from "forge-std/Script.sol";
-import {IfElse} from "../src/ifElse.sol";
+import {IfElse} from "../src/1-Basics/ifElse.sol";
 
 contract DeployIfElse is Script {
 

@@ -2,7 +2,7 @@
 pragma solidity ^0.8.17;
 
 import {Script} from "forge-std/Script.sol";
-import {Enum} from "../src/enum.sol";
+import {Enum} from "../src/1-Basics/enum.sol";
 
 contract DeployEnum is Script {
 

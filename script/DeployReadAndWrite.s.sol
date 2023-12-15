@@ -3,7 +3,7 @@ pragma solidity ^0.8.17;
 
 
 import {Script} from "forge-std/Script.sol";
-import {ReadAndWrite} from "../src/readAndWrite.sol";
+import {ReadAndWrite} from "../src/1-Basics/readAndWrite.sol";
 
 contract DeployReadAndWrite is Script {
     function run() external returns (ReadAndWrite){

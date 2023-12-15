@@ -2,7 +2,7 @@
 pragma solidity ^0.8.17;
 
 import {Script} from "forge-std/Script.sol";
-import {GasPrice} from "../src/outOfGas.sol";
+import {GasPrice} from "../src/1-Basics/outOfGas.sol";
 
 contract DeployOutOfGas is Script { 
     function run() external returns(GasPrice) {
